@@ -1,0 +1,33 @@
+[
+  {
+    "id": 1,
+    "authorName": "MAJ Moses",
+    "avatar": "https://randomuser.me/api/portraits/women/44.jpg",
+    "role": "Computer Science Student",
+    "content": "Just completed my first full-stack web app using Flask and React! It's been a challenging but rewarding journey 🔥 #WebDev #StudentProjects",
+    "image": "https://images.unsplash.com/photo-1614624532983-4ce03382d63d?ixlib=rb-4.1.0&fm=jpg&q=60&w=1200",
+    "likes": 12,
+    "comments": 3,
+    "isMine": true
+  },
+  {
+    "id": 2,
+    "authorName": "CPT IZZUL",
+    "avatar": "https://randomuser.me/api/portraits/men/36.jpg",
+    "role": "Mechanical Engineering",
+    "content": "Attended a robotics workshop today. Learned so much about control systems and automation! 🤖",
+    "image": "https://images.unsplash.com/photo-1614624532983-4ce03382d63d?ixlib=rb-4.1.0&fm=jpg&q=60&w=1200",
+    "likes": 7,
+    "comments": 1
+  },
+  {
+    "id": 3,
+    "authorName": "LTA MIK",
+    "avatar": "https://randomuser.me/api/portraits/women/19.jpg",
+    "role": "Design & Innovation",
+    "content": "Working on a sustainability project to reduce campus waste! 🌱 Excited to share results soon.",
+    "image": "https://images.unsplash.com/photo-1614624532983-4ce03382d63d?ixlib=rb-4.1.0&fm=jpg&q=60&w=1200",
+    "likes": 4,
+    "comments": 2
+  }
+]

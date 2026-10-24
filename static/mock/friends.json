@@ -1,0 +1,11 @@
+[{
+  "requests": [
+    {"id": 101, "name": "Alice Walker", "role": "Computer Science Student", "avatar": "https://randomuser.me/api/portraits/women/68.jpg"},
+    {"id": 102, "name": "Bob Carter", "role": "Electrical Engineering", "avatar": "https://randomuser.me/api/portraits/men/52.jpg"}
+  ],
+  "connections": [
+    {"id":1,"name":"MAJ Moses","role":"Computer Science Student","avatar":"https://randomuser.me/api/portraits/women/44.jpg"},
+    {"id":2,"name":"CPT IZZUL","role":"Mechanical Engineering","avatar":"https://randomuser.me/api/portraits/men/36.jpg"},
+    {"id":3,"name":"LTA MIK","role":"Design & Innovation","avatar":"https://randomuser.me/api/portraits/women/19.jpg"}
+  ]
+}]

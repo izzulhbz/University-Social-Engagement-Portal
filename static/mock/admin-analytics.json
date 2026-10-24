@@ -1,0 +1,63 @@
+{
+  "users": {
+    "day": {
+      "labels": ["09:00","12:00","15:00","18:00","21:00"],
+      "students": { "active": [120,140,160,150,130], "inactive": [40,35,30,28,25] },
+      "faculty":  { "active": [25,30,28,26,24],      "inactive": [8,7,7,6,6] }
+    },
+    "week": {
+      "labels": ["Mon","Tue","Wed","Thu","Fri","Sat","Sun"],
+      "students": { "active": [700,820,780,860,910,650,540], "inactive": [180,160,170,150,140,200,220] },
+      "faculty":  { "active": [130,150,145,160,170,110,95],  "inactive": [40,38,36,35,32,45,50] }
+    },
+    "month": {
+      "labels": ["W1","W2","W3","W4"],
+      "students": { "active": [2800,3050,2970,3150], "inactive": [720,680,690,640] },
+      "faculty":  { "active": [520,590,560,610],     "inactive": [150,145,140,135] }
+    }
+  },
+
+  "engagement": {
+    "day": {
+      "labels": ["09:00","12:00","15:00","18:00","21:00"],
+      "posts":    [12, 18, 20, 16, 10],
+      "comments": [40, 55, 60, 52, 35]
+    },
+    "week": {
+      "labels": ["Mon","Tue","Wed","Thu","Fri","Sat","Sun"],
+      "posts":    [85, 92, 88, 105, 130, 70, 60],
+      "comments": [260, 300, 280, 320, 420, 190, 160]
+    },
+    "month": {
+      "labels": ["W1","W2","W3","W4"],
+      "posts":    [320, 350, 330, 370],
+      "comments": [980, 1020, 990, 1120]
+    }
+  },
+
+  "popular_posts": {
+    "day": [
+      {"id":"p101","title":"Lecture Notes Drop","content":"CS101 notes are up!","author_name":"Jamie","author_role":"Student","likes":45,"comments":22,"author_avatar":"/static/images/av1.png","image_url":""},
+      {"id":"p102","title":"Lab Helper","content":"Anyone stuck on Lab 3?","author_name":"Sam","author_role":"Student","likes":40,"comments":30,"author_avatar":"/static/images/av2.png","image_url":""}
+    ],
+    "week": [
+      {"id":"p201","title":"Midterms Tips","content":"Compiled tips from TAs.","author_name":"Dr. Lee","author_role":"Faculty","likes":160,"comments":95,"author_avatar":"/static/images/av3.png","image_url":"/static/images/post1.jpg"},
+      {"id":"p202","title":"Project Teams","content":"Find teammates here.","author_name":"Ari","author_role":"Student","likes":140,"comments":120,"author_avatar":"/static/images/av4.png","image_url":""},
+      {"id":"p203","title":"Hackathon Announced","content":"Join the 48h campus hack!","author_name":"Office of Innovation","author_role":"Faculty","likes":130,"comments":110,"author_avatar":"/static/images/av5.png","image_url":"/static/images/post2.jpg"}
+    ],
+    "month": [
+      {"id":"p301","title":"Scholarships","content":"New scholarships available.","author_name":"Financial Aid","author_role":"Faculty","likes":520,"comments":300,"author_avatar":"/static/images/av6.png","image_url":""},
+      {"id":"p302","title":"Study Group","content":"Weekly study circle sign-up.","author_name":"Mika","author_role":"Student","likes":480,"comments":260,"author_avatar":"/static/images/av7.png","image_url":""}
+    ]
+  },
+
+  "posts_by_id": {
+    "p101": { "author_name":"Jamie","author_role":"Student","author_avatar":"https://randomuser.me/api/portraits/women/19.jpg","content":"CS101 notes are up on the portal.","image_url":"https://images.unsplash.com/photo-1614624532983-4ce03382d63d?ixlib=rb-4.1.0&fm=jpg&q=60&w=1200","comments":22 },
+    "p102": { "author_name":"Sam","author_role":"Student","author_avatar":"https://randomuser.me/api/portraits/men/36.jpg","content":"Anyone stuck on Lab 3? Ping me.","image_url":"https://images.unsplash.com/photo-1614624532983-4ce03382d63d?ixlib=rb-4.1.0&fm=jpg&q=60&w=1200","comments":30 },
+    "p201": { "author_name":"Dr. Lee","author_role":"Faculty","author_avatar":"https://randomuser.me/api/portraits/men/36.jpg","content":"Midterms tips from TAs collected here.","image_url":"https://images.unsplash.com/photo-1614624532983-4ce03382d63d?ixlib=rb-4.1.0&fm=jpg&q=60&w=1200","comments":95 },
+    "p202": { "author_name":"Ari","author_role":"Student","author_avatar":"https://randomuser.me/api/portraits/women/19.jpg","content":"Find project teammates in this thread.","image_url":"https://images.unsplash.com/photo-1614624532983-4ce03382d63d?ixlib=rb-4.1.0&fm=jpg&q=60&w=1200","comments":120 },
+    "p203": { "author_name":"Office of Innovation","author_role":"Faculty","author_avatar":"https://randomuser.me/api/portraits/women/44.jpg","content":"48-hour hackathon with prizes.","image_url":"https://images.unsplash.com/photo-1614624532983-4ce03382d63d?ixlib=rb-4.1.0&fm=jpg&q=60&w=1200","comments":110 },
+    "p301": { "author_name":"Financial Aid","author_role":"Faculty","author_avatar":"https://randomuser.me/api/portraits/women/44.jpg","content":"Apply for scholarships by 30 Nov.","image_url":"https://images.unsplash.com/photo-1614624532983-4ce03382d63d?ixlib=rb-4.1.0&fm=jpg&q=60&w=1200","comments":300 },
+    "p302": { "author_name":"Mika","author_role":"Student","author_avatar":"https://randomuser.me/api/portraits/women/19.jpg","content":"Sign up if you want a weekly study group.","image_url":"https://images.unsplash.com/photo-1614624532983-4ce03382d63d?ixlib=rb-4.1.0&fm=jpg&q=60&w=1200","comments":260 }
+  }
+}

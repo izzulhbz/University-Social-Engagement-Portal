@@ -1,0 +1,51 @@
+<header class="top-toolbar d-flex align-items-center justify-content-between px-4 py-2">
+  <!-- Logo -->
+  <div class="d-flex align-items-center">
+    <a href="index.html" class="d-inline-block" aria-label="Go to home">
+      <img
+        class="site-logo"
+        src="/static/img/SiT_logo_without_text.png"
+        alt="SiT logo"
+        width="40"
+        height="40"
+        style="object-fit:contain;"
+      />
+    </a>
+  </div>
+
+  <!-- Searchbar -->
+  <div class="flex-grow-1 d-flex justify-content-center px-3">
+    <form class="w-100" role="search" action="search.html" method="get" style="max-width:720px;">
+      <div class="input-group">
+        <input type="search" name="q" class="search-bar form-control" placeholder="Search people..." aria-label="Search">
+        <button type="submit" class="btn btn-light" aria-label="Search">
+          <i class="bi bi-search"></i>
+        </button>
+      </div>
+    </form>
+  </div>
+
+  
+  <div class="d-flex align-items-center">
+    <!-- Friends -->
+    <a href="friends.html" class="nav-icon text-white text-decoration-none me-3 position-relative">
+      <i class="bi bi-people fs-5"></i>
+      <span class="d-none d-md-inline ms-1"></span>
+    </a>
+
+    <!-- Notifications -->
+    <a href="notifications.html" class="nav-icon text-white text-decoration-none me-3 position-relative" aria-label="View notifications">
+      <i class="bi bi-bell fs-5"></i>
+      <span class="d-none d-md-inline ms-1"></span>
+    </a>
+
+    <span class="text-white me-2 d-none d-md-inline">Grace</span>
+    <img
+      src="https://randomuser.me/api/portraits/women/44.jpg"
+      alt="User Profile"
+      class="rounded-circle"
+      width="40"
+      height="40"
+    />
+  </div>
+</header>

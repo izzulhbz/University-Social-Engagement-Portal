@@ -1,0 +1,5 @@
+[
+  {"id":1,"title":"New comment","body":"Alice commented on your post","read":false},
+  {"id":2,"title":"New follower","body":"Bob started following you","read":false},
+  {"id":3,"title":"Reminder","body":"Exam tomorrow at 9AM","read":true}
+]
